@@ -14,7 +14,7 @@ Basic theme WordPress archives
 * Custom Menu
 * The GPL v2.0 or later license. 
 
-More info https://github.com/felrosset/BasicStructureProjects-WP_Theme.
+More info https://github.com/felrosset/BasicStructureProjects-WP_Theme7.
 
 == Installation ==
 
