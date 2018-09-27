@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
 
-    less: {
+      less: {
         development: {
           options: {
             paths: ['assets/css/']
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 
       watch: {
         scripts: {
-          files: ['**/*.css','**/*.less'],
+          files: ['**/*.css','**/*.less', '**/*.js'],
           tasks: ['less','cssmin', 'uglify', 'watch'],
           options: {
             spawn: true,
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
             cwd: 'assets/js',
             src: ['*.js', '!*.min.js'],
             dest: 'assets/js/min',
-            ext: '.min.css'
+            ext: '.min.js'
           }]
         }
       } //uglify
